@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.2) 
 
 add_executable(server main.cpp)
-set_target_properties(server PROPERTIES CXX_STANDARD 14 CXX_STANDARD_REQIRED ON)
+set_target_properties(server PROPERTIES CXX_STANDARD 17 CXX_STANDARD_REQIRED ON)
 target_link_libraries(server PRIVATE boost_system
 printer filePrinter consolePrinter libinterpret libasync clientServer )
 
