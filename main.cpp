@@ -1,7 +1,7 @@
 #include <stdlib.h>
 
-#include "../libs/asyncedLib.h"
-#include "../libs/Server.h"
+#include "libs/asyncedLib.h"
+#include "libs/Server.h"
 
 int main(int argc, char const *argv[]){
 
