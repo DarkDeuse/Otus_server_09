@@ -18,7 +18,7 @@ private:
     void handle_accept();
     void handle_stop();
 
-    assyncLib         m_assync;
+    assyncedLib         m_assync;
     io_service        m_service{};
     ip::tcp::acceptor m_acceptor;
     ip::tcp::socket   m_sock;
